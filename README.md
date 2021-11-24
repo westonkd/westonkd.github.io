@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# TinyMCE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The world's #1 open source rich text editor.
 
-## Available Scripts
+Used and trusted by millions of developers, TinyMCE is the world’s most customizable, scalable, and flexible rich text editor. We’ve helped launch the likes of Atlassian, Medium, Evernote (and lots more that we can’t tell you), by empowering them to create exceptional content and experiences for their users.
 
-In the project directory, you can run:
+With more than 350M+ downloads every year, we’re also one of the most trusted enterprise-grade open source HTML editors on the internet. There’s currently more than 100M+ products worldwide, powered by Tiny. As a high powered WYSIWYG editor, TinyMCE is built to scale, designed to innovate, and thrives on delivering results to difficult edge-cases.
 
-### `yarn start`
+You can access a [full featured demo of TinyMCE](https://www.tiny.cloud/docs/demo/full-featured/) in the docs on the TinyMCE website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img alt="Screenshot of the TinyMCE Editor" src="https://www.tiny.cloud/storage/github-readme-images/tinymce-editor.png"\>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Get started with TinyMCE
 
-### `yarn test`
+Getting started with the TinyMCE rich text editor is easy, and for simple configurations can be done in less than 5 minutes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[TinyMCE Cloud Deployment Quick Start Guide](https://www.tiny.cloud/docs/quick-start/)
 
-### `yarn build`
+[TinyMCE Self-hosted Deployment Guide](https://www.tiny.cloud/docs/general-configuration-guide/advanced-install/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+TinyMCE provides a range of configuration options that allow you to integrate it into your application. Start customizing with a [basic setup](https://www.tiny.cloud/docs/general-configuration-guide/basic-setup/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Configure it for one of three modes of editing:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [TinyMCE classic editing mode](https://www.tiny.cloud/docs/general-configuration-guide/use-tinymce-classic/).
+- [TinyMCE inline editing mode](https://www.tiny.cloud/docs/general-configuration-guide/use-tinymce-inline/).
+- [TinyMCE distraction-free editing mode](https://www.tiny.cloud/docs/general-configuration-guide/use-tinymce-distraction-free/).
 
-### `yarn eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Integration
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+TinyMCE is easily integrated into your projects with the help of components such as:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [tinymce-react](https://github.com/tinymce/tinymce-react)
+- [tinymce-vue](https://github.com/tinymce/tinymce-vue)
+- [tinymce-angular](https://github.com/tinymce/tinymce-angular)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+With over 29 integrations, and 400+ APIs, see the TinyMCE docs for a full list of editor [integrations](https://www.tiny.cloud/docs/integrations/).
 
-## Learn More
+### Customization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+It is easy to [configure the UI](https://www.tiny.cloud/docs/general-configuration-guide/customize-ui/) of your rich text editor to match the design of your site, product or application. Due to its flexibility, you can [configure the editor](https://www.tiny.cloud/docs/general-configuration-guide/basic-setup/) with as much or as little functionality as you like, depending on your requirements.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+With [50+ powerful plugins available](https://www.tiny.cloud/apps/), and content editable as the basis of TinyMCE, adding additional functionality is as simple as including a single line of code.
 
-### Code Splitting
+Realizing the full power of most plugins requires only a few lines more.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Extensibility
 
-### Analyzing the Bundle Size
+Sometimes your editor requirements can be quite unique, and you need the freedom and flexibility to innovate. Thanks to TinyMCE being open source, you can view the source code and develop your own extensions for custom functionality to meet your own requirements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The TinyMCE [API](https://www.tiny.cloud/docs/api/) is exposed to make it easier for you to write custom functionality that fits within the existing framework of TinyMCE [UI components](https://www.tiny.cloud/docs/ui-components/).
 
-### Making a Progressive Web App
+### Extended Features and Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+For the professional software teams that require more in-depth efficiency, compliance or collaborative features built to enterprise-grade standards, please [get in touch with our team](https://www.tiny.cloud/contact/).
 
-### Advanced Configuration
+Tiny also offers dedicated SLAs and support for professional development teams.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Compiling and contributing
 
-### Deployment
+In 2019 the decision was made to transition our codebase to a monorepo. For information on compiling and contributing, see: [contribution guidelines](https://github.com/tinymce/tinymce/blob/master/CONTRIBUTING.md).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+As an open source product, we encourage and support the active development of our software.
 
-### `yarn build` fails to minify
+## Want more information?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit the [TinyMCE website](https://tiny.cloud/) and check out the [TinyMCE documentation](https://www.tiny.cloud/docs/).
