@@ -10,6 +10,8 @@ function App() {
   const [cellCount, setCellCount] = useState(1);
 
   useEffect(() => {
+    tinymce.editors.forEach((editor) => editor.remove())
+
     tinymce.init({
       inline: true,
       selector: ".cell",

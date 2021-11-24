@@ -1,13 +1,18 @@
 .App {
   display: grid;
   width: 100vw;
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 
 .cell {
   border-radius: 5px;
   padding: 20px;
   border: dashed 3px lightgray;
+  height: 100%;
+}
+
+.cell-wrapper {
+  height: 100%;
 }
 
 .addCell {
